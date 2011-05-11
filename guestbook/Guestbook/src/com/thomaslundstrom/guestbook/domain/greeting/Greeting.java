@@ -1,4 +1,4 @@
-package com.thomaslundstrom.guestbook.domain;
+package com.thomaslundstrom.guestbook.domain.greeting;
 
 import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.users.User;
@@ -11,8 +11,14 @@ import javax.jdo.annotations.Persistent;
 import javax.jdo.annotations.PrimaryKey;
 
 @PersistenceCapable
-public class Greeting implements Serializable {
-    @PrimaryKey
+public class Greeting implements Serializable /* needs serializable to be able to put in a cache */ {
+	
+	/**
+	 * Generated serialVersionUID
+	 */
+	private static final long serialVersionUID = 237498273498L;
+
+	@PrimaryKey
     @Persistent(valueStrategy = IdGeneratorStrategy.IDENTITY)
     private Key key;
 

@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserService;
 import com.google.appengine.api.users.UserServiceFactory;
-import com.thomaslundstrom.guestbook.domain.Greeting;
-import com.thomaslundstrom.guestbook.domain.GreetingRepository;
+import com.thomaslundstrom.guestbook.domain.greeting.Greeting;
+import com.thomaslundstrom.guestbook.domain.greeting.GreetingRepository;
 
 @Controller
 public class GreetingsController {

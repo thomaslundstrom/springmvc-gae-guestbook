@@ -1,4 +1,4 @@
-package com.thomaslundstrom.guestbook.domain;
+package com.thomaslundstrom.guestbook.domain.greeting;
 
 import java.util.Collection;
 

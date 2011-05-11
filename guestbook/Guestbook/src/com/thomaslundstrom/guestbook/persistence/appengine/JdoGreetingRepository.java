@@ -2,23 +2,19 @@ package com.thomaslundstrom.guestbook.persistence.appengine;
 
 import java.util.Collection;
 
-import javax.jdo.JDOException;
-import javax.jdo.PersistenceManager;
 import javax.jdo.PersistenceManagerFactory;
-import javax.jdo.Query;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.orm.jdo.JdoCallback;
 import org.springframework.orm.jdo.JdoTemplate;
 import org.springframework.stereotype.Repository;
 
 import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.datastore.KeyFactory;
-import com.thomaslundstrom.guestbook.domain.Greeting;
+import com.thomaslundstrom.guestbook.domain.greeting.Greeting;
 
 @Repository
 public class JdoGreetingRepository implements
-		com.thomaslundstrom.guestbook.domain.GreetingRepository {
+		com.thomaslundstrom.guestbook.domain.greeting.GreetingRepository {
 
 	JdoTemplate jdoTemplate;
 	
