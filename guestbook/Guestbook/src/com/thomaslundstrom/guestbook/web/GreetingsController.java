@@ -49,6 +49,6 @@ public class GreetingsController {
     	
     	greetingRepository.save(greeting);
 		
-		return "redirect:/greetings/list.do";
+		return "redirect:/greetings/list";
 	}
 }
