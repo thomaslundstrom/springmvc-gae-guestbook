@@ -28,7 +28,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>dispatcher</servlet-name>
-		<url-pattern>greetings/*</url-pattern>
+		<url-pattern>/greetings/*</url-pattern>
 	</servlet-mapping>
 	<welcome-file-list>
 		<welcome-file>index.jsp</welcome-file>
@@ -43,7 +43,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
         <filter-name>
             OpenPersistenceManagerInViewFilter
         </filter-name>
-        <url-pattern>greetings/*</url-pattern>
+        <url-pattern>/greetings/*</url-pattern>
     </filter-mapping> 
 	
 </web-app>
