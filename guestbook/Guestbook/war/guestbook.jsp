@@ -5,7 +5,7 @@
 <%@ page import="java.util.List" %>
 <%@ page import="javax.jdo.PersistenceManager" %>
 
-<%@ page import="com.thomaslundstrom.guestbook.Greeting" %>
+<%@ page import="com.thomaslundstrom.guestbook.domain.Greeting" %>
 <%@ page import="com.thomaslundstrom.guestbook.PMF" %>
 
 

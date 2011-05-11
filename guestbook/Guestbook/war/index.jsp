@@ -1,0 +1,1 @@
+<% response.sendRedirect("/greetings/list"); %>

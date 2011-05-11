@@ -2,5 +2,5 @@ classes/
 .classpath
 .project
 .settings/
-lib/
 appengine-generated/
+.DS_Store
