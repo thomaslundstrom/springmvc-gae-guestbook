@@ -1,7 +1,4 @@
 classes/
-.classpath
-.project
-.settings/
 appengine-generated/
 .DS_Store
 war/WEB-INF/appengine-web.xml
