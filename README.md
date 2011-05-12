@@ -3,6 +3,8 @@ Spring MVC on Google AppEngine lab
 
 This repo contains code for a basic (really, basic) application built on Spring MVC to be published on Google AppEngine. No (unit|integration) tests yet.
 
+Thanks to http://peterbacklund.blogspot.com/2009/04/running-spring-on-google-app-engine.html for inspiration and insight.
+
 Tested with Spring Framework version 3.0.5 and GAE version 1.4.3. 
 
 Getting started:
